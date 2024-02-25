@@ -1,10 +1,11 @@
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using PizzaMauiApp.API.Core.Environment;
 using PizzaMauiApp.API.Orders.Configuration;
 using PizzaMauiApp.API.Orders.Consumers;
 using PizzaMauiApp.API.Orders.DbOrders;
 using PizzaMauiApp.API.Orders.Services;
-using PizzaMauiApp.API.Shared.Environment;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

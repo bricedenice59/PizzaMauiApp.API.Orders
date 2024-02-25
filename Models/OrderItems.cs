@@ -1,4 +1,4 @@
-using PizzaMauiApp.API.Shared.EntityFramework;
+using PizzaMauiApp.API.Core.EntityFramework;
 
 namespace PizzaMauiApp.API.Orders.Models;
 
