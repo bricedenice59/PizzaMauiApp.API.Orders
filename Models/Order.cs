@@ -5,7 +5,7 @@ namespace PizzaMauiApp.API.Orders.Models;
 
 public class Order : BaseModel
 {
-    public Guid UserId { get; set; }
+    public required string UserId { get; set; } 
     
     public ICollection<OrderItems> OrderItems { get; set; } = new List<OrderItems>(); 
 
